@@ -1,0 +1,22 @@
+{
+  "name": "angular-resize-event",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NemesLaszlo/angular-resize-event"
+  },
+  "homepage": "https://github.com/NemesLaszlo/angular-resize-event#readme",
+  "keywords": [
+    "angular",
+    "resized",
+    "event"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": ">= 12.2.0 < 18",
+    "@angular/core": ">= 12.2.0 < 18"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}
