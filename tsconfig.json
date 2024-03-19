@@ -3,9 +3,9 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "nemes-angular-resize-event": [
-        "dist/nemes-angular-resize-event/nemes-angular-resize-event",
-        "dist/nemes-angular-resize-event"
+      "angular-resize-event-package": [
+        "dist/angular-resize-event-package/angular-resize-event-package",
+        "dist/angular-resize-event-package"
       ]
     },
     "baseUrl": "./",

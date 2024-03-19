@@ -3,23 +3,23 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "nemes-angular-resize-event": {
+    "angular-resize-event-package": {
       "projectType": "library",
-      "root": "projects/nemes-angular-resize-event",
-      "sourceRoot": "projects/nemes-angular-resize-event/src",
+      "root": "projects/angular-resize-event-package",
+      "sourceRoot": "projects/angular-resize-event-package/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/nemes-angular-resize-event/ng-package.json"
+            "project": "projects/angular-resize-event-package/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/nemes-angular-resize-event/tsconfig.lib.prod.json"
+              "tsConfig": "projects/angular-resize-event-package/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/nemes-angular-resize-event/tsconfig.lib.json"
+              "tsConfig": "projects/angular-resize-event-package/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -27,9 +27,9 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/nemes-angular-resize-event/src/test.ts",
-            "tsConfig": "projects/nemes-angular-resize-event/tsconfig.spec.json",
-            "karmaConfig": "projects/nemes-angular-resize-event/karma.conf.js"
+            "main": "projects/angular-resize-event-package/src/test.ts",
+            "tsConfig": "projects/angular-resize-event-package/tsconfig.spec.json",
+            "karmaConfig": "projects/angular-resize-event-package/karma.conf.js"
           }
         }
       }

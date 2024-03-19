@@ -1,15 +1,16 @@
 {
-  "name": "nemes-angular-resize-event",
-  "version": "1.0.0",
+  "name": "angular-resize-event-package",
+  "version": "3.4.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "publish": "npm publish ./dist/angular-resize-event --access public",
-    "postbuild": "cp README.md dist/angular-resize-event/README.md"
+    "publish": "npm publish ./dist/angular-resize-event-package --access public",
+    "postbuild": "cp README.md dist/angular-resize-event-package/README.md"
   },
+  "private": true,
   "dependencies": {
     "@angular/animations": "^17.0.8",
     "@angular/common": "^17.0.8",

@@ -21,7 +21,7 @@ It internally uses browser native [`ResizeObserver`](https://developer.mozilla.o
 Import the library in any Angular application by running:
 
 ```bash
-$ npm install angular-resize-event
+$ npm install angular-resize-event-package
 ```
 
 and then from your Angular `AppModule`:
@@ -32,7 +32,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import the library module
-import { AngularResizeEventModule } from 'angular-resize-event';
+import { AngularResizeEventModule } from 'angular-resize-event-package';
 
 @NgModule({
   declarations: [
@@ -60,7 +60,7 @@ Once your library is imported, you can use its `resized` directive in your Angul
 import { Component } from '@angular/core';
 
 // Import the resized event model
-import { ResizedEvent } from 'angular-resize-event';
+import { ResizedEvent } from 'angular-resize-event-package';
 
 @Component({...})
 class MyComponent {
