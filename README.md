@@ -4,7 +4,7 @@ Angular directive for detecting changes of an element size.
 
 ## Important
 
-Forked from: https://github.com/vdolek/angular-resize-event. The last original version is not supported by angular 16 and 17. 
+Forked from: https://github.com/vdolek/angular-resize-event. The last original version is not supported by angular 16, 17, 18 and so on. 
 
 Thanks to: https://github.com/vdolek, https://github.com/dereekb, and all contributors.
 
