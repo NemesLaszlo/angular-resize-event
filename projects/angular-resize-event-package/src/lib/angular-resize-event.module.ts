@@ -2,10 +2,8 @@ import { NgModule } from '@angular/core';
 import { ResizedDirective } from './resized.directive';
 
 @NgModule({
-  declarations: [
-    ResizedDirective
-  ],
   imports: [
+    ResizedDirective
   ],
   exports: [
     ResizedDirective
