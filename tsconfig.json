@@ -27,7 +27,11 @@
     "lib": [
       "es2020",
       "dom"
-    ]
+    ],
+    // Prevent TypeScript from checking Angular internal .d.ts files.
+    // This fixes the Angular 21 build error with '@angular/core/primitives/di'
+    // while keeping backward compatibility for Angular 12 → 21.
+    "skipLibCheck": true
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
