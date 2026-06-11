@@ -1,7 +1,7 @@
 export class ResizedEvent {
-    public newRect: DOMRectReadOnly;
-    public oldRect?: DOMRectReadOnly;
-    public isFirst: boolean;
+    public readonly newRect: DOMRectReadOnly;
+    public readonly oldRect?: DOMRectReadOnly;
+    public readonly isFirst: boolean;
 
     public constructor(newRect: DOMRectReadOnly, oldRect: DOMRectReadOnly | undefined) {
         this.newRect = newRect;

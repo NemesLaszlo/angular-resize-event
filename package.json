@@ -1,40 +1,29 @@
 {
   "name": "angular-resize-event-package",
-  "version": "3.8.0",
+  "version": "4.0.0",
   "private": true,
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
-    "publish": "npm publish ./dist/angular-resize-event-package --access public",
-    "postbuild": "cp README.md dist/angular-resize-event-package/README.md"
+    "build": "ng build",
+    "postbuild": "cp README.md dist/angular-resize-event-package/README.md",
+    "publish": "npm publish ./dist/angular-resize-event-package --access public"
   },
   "dependencies": {
     "tslib": "^2.8.1"
   },
   "peerDependencies": {
-    "@angular/animations": "^21.0.0",
-    "@angular/common": "^21.0.0",
-    "@angular/core": "^21.0.0",
-    "@angular/forms": "^21.0.0",
-    "@angular/router": "^21.0.0",
+    "@angular/common": "^22.0.0",
+    "@angular/core": "^22.0.0",
     "rxjs": "^7.8.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^21.0.4",
-    "@angular/cli": "^21.0.4",
-    "@angular/compiler-cli": "^21.0.6",
-    "@types/jasmine": "~5.1.8",
+    "@angular/build": "^22.0.1",
+    "@angular/cli": "^22.0.1",
+    "@angular/compiler-cli": "^22.0.1",
     "@types/node": "^25.0.3",
-    "jasmine-core": "~5.13.0",
-    "karma": "~6.4.4",
-    "karma-chrome-launcher": "~3.2.0",
-    "karma-coverage": "~2.2.1",
-    "karma-jasmine": "~5.1.0",
-    "karma-jasmine-html-reporter": "~2.1.0",
-    "ng-packagr": "^21.0.1",
-    "typescript": "^5.9.3"
+    "ng-packagr": "^22.0.0",
+    "typescript": "^6.0.3"
   }
 }

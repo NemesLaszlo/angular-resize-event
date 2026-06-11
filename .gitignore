@@ -28,8 +28,17 @@ yarn-error.log
 !.vscode/extensions.json
 .history/*
 
+# Angular
+/.angular
+
+# Claude Code
+.claude/
+
+# Testing / tooling artifacts
+.playwright-mcp
+*.bak
+
 # Miscellaneous
-/.angular/cache
 .sass-cache/
 /connect.lock
 /coverage

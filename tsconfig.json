@@ -4,12 +4,10 @@
   "compilerOptions": {
     "paths": {
       "angular-resize-event-package": [
-        "dist/angular-resize-event-package/angular-resize-event-package",
-        "dist/angular-resize-event-package"
+        "./dist/angular-resize-event-package/angular-resize-event-package",
+        "./dist/angular-resize-event-package"
       ]
     },
-    "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,
@@ -18,20 +16,15 @@
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "declaration": false,
-    "downlevelIteration": true,
     "experimentalDecorators": true,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "importHelpers": true,
-    "target": "es2020",
-    "module": "es2020",
+    "target": "ES2022",
+    "module": "ES2022",
     "lib": [
-      "es2020",
+      "ES2022",
       "dom"
-    ],
-    // Prevent TypeScript from checking Angular internal .d.ts files.
-    // This fixes the Angular 21 build error with '@angular/core/primitives/di'
-    // while keeping backward compatibility for Angular 12 → 21.
-    "skipLibCheck": true
+    ]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
